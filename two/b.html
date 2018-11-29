@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/style.blue.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png?3">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
@@ -115,27 +116,63 @@
                     </ul>
                     
                   </div>
+                  
                   <div class="card-body">
-                    
+
                     <ul class="Menu">
-                      <li class="Menu-item js-MenuItem">
-                        <a class="Menu-item-link" href="index.html">
-                          <h2 class="h6 text-uppercase mb-0">A1</h2>
+                      <li class="animated fadeInDown" style="margin: 10px">
+                        <a  href="index.html">
+                          <div class="col-lg-12 mb-12">                           
+                            <div class="card"> 
+                              <div class="card-body">
+                                <h2 class="h6 text-uppercase mb-0">A1</h2>
+                              </div>
+                            </div>
+                          </div>
                         </a>
                       </li>
-                      <li class="Menu-item js-MenuItem">
-                        <a class="Menu-item-link" href="#">
-                          <h2 class="h6 text-uppercase mb-0">A2</h2>
+                      <li class="animated fadeInDown delay-0-2s"  style="margin: 10px">
+                        <a  href="index.html">
+                          <div class="col-lg-12 mb-12">                           
+                            <div class="card"> 
+                              <div class="card-body">
+                                <h2 class="h6 text-uppercase mb-0">A1</h2>
+                              </div>
+                            </div>
+                          </div>
                         </a>
                       </li>
-                      <li class="Menu-item js-MenuItem">
-                        <a class="Menu-item-link" href="#">
-                          <h2 class="h6 text-uppercase mb-0">A3</h2>
+                      <li class="animated fadeInDown delay-0-4s"  style="margin: 10px">
+                        <a  href="index.html">
+                          <div class="col-lg-12 mb-12">                           
+                            <div class="card"> 
+                              <div class="card-body">
+                                <h2 class="h6 text-uppercase mb-0">A1</h2>
+                              </div>
+                            </div>
+                          </div>
                         </a>
                       </li>
-                      <li class="Menu-item js-MenuItem">
-                        <a class="Menu-item-link" href="#">
-                          <h2 class="h6 text-uppercase mb-0">A4</h2>
+                      <li class="animated fadeInDown delay-0-5s" style="margin: 10px">
+                        <a  href="index.html">
+                          <div class="col-lg-12 mb-12">                           
+                            <div class="card"> 
+                              <div class="card-body">
+                                <h2 class="h6 text-uppercase mb-0">A1</h2>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="animated fadeInDown delay-0-6s" style="margin: 10px">
+                        <a  href="index.html">
+                          <div class="col-lg-12 mb-12">                           
+                            <div class="card"> 
+                              <div class="card-body">
+                                <h2 class="h6 text-uppercase mb-0">A1</h2>
+                              </div>
+                            </div>
+                          </div>
                         </a>
                       </li>
                     </ul>
@@ -160,49 +197,7 @@
         </footer>
       </div>
     </div>
-    <!-- JavaScript files-->
-    <script>
-      var elements = document.querySelectorAll('.js-MenuItem');
-      var duration = 0.5;
-      var delay = duration / elements.length;
 
-      elements.forEach(function (element, index) {
-        var elementsByDistance = [];
-
-        elements.forEach(function (thisElement, thisIndex) {
-          var distance = Math.abs(index - thisIndex);
-
-          if (!elementsByDistance[distance]) {
-            elementsByDistance[distance] = [];
-          }
-
-          elementsByDistance[distance].push(thisElement);
-        });
-
-        element.addEventListener('click', function (event) {
-          var timeline = new TimelineMax();
-          event.preventDefault();
-          timeline.staggerFromTo(elementsByDistance, duration, {
-            x: '0%' },
-          {
-            x: '-150%',
-            ease: Back.easeIn.config(1) },
-          delay);
-          timeline.staggerFromTo(elementsByDistance, duration, {
-            x: '150%' },
-          {
-            x: '0%',
-            ease: Back.easeOut.config(1) },
-          delay);
-
-        });
-        
-        setTimeout(function(event){ return true; }, 10000);
-      });
-
-      // Enable :active styles on mobile
-      document.addEventListener('touchstart', function () {}, true);
-    </script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper.js/umd/popper.min.js"> </script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
