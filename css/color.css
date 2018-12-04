@@ -16,7 +16,7 @@ ul.slimmenu li a.mPS2id-highlight,
 .link-recents a:hover,
 .logo-down-wrap .logo-down-icon,
 .parallax-text-demo p {
-    color: #cfa144;
+    color: #0090D0;
 }
 .cd-pagination .current,
 .try-it .button--moema:first-child {
@@ -34,10 +34,10 @@ ul.slimmenu li a.mPS2id-highlight,
 .journal-det .link:before,
 .journal-det-right .link:before,
 .tags:hover {
-	background: #cfa144;
+	background: #0090D0;
 }
 #sync2 .synced .item {
-	background:#cfa144;
+	background:#0090D0;
 }
 #cd-zoom-in, #cd-zoom-out,
 #ajax-form button:hover,
@@ -48,25 +48,25 @@ ul.slimmenu li a.mPS2id-highlight,
 .link-tag a:hover,
 .home-text .button--moema,
 .try-it a.button-effect:hover {
-	background-color: #cfa144;
+	background-color: #0090D0;
 }
 .comments textarea:focus,
 .comments input:focus,
 .comments textarea:active,
 .comments input:active {	
-	border-bottom:1px solid #cfa144;
+	border-bottom:1px solid #0090D0;
 }
 .sidebar input:-ms-input-placeholder  {
-	color:#cfa144;
+	color:#0090D0;
 }
 .sidebar input::-moz-placeholder  {
-	color:#cfa144;
+	color:#0090D0;
 }
 .sidebar input:-moz-placeholder  {
-	color:#cfa144;
+	color:#0090D0;
 }
 .sidebar input::-webkit-input-placeholder  {
-	color:#cfa144;
+	color:#0090D0;
 }
 
 
@@ -74,21 +74,21 @@ ul.slimmenu li a.mPS2id-highlight,
 #ajax-form input:focus,
 #ajax-form textarea:active,
 #ajax-form input:active {	
-	border-bottom:1px solid #cfa144;
+	border-bottom:1px solid #0090D0;
 }
 ::selection {
-	background: #cfa144;
+	background: #0090D0;
 }
 ::-moz-selection {
-	background: #cfa144;
+	background: #0090D0;
 }
 
 @media only screen and (min-width: 1200px) {
 .journal-det{
-	border-right:3px solid #cfa144;
+	border-right:3px solid #0090D0;
 }
 .journal-det-right{
-	border-left:3px solid #cfa144;
+	border-left:3px solid #0090D0;
 }
 }
 
