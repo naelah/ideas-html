@@ -3699,7 +3699,7 @@ animated buttons - animate the text inside prev and next buttons
 @media only screen and (max-width: 1200px) {
 .home-text h1{
 	letter-spacing:2px;
-	font-size:100px;
+	font-size:30px;
 	line-height:32px;
 }
 .home-text .button-effect {
