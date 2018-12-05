@@ -934,7 +934,7 @@ ul.slimmenu.collapsed li > ul {
 	margin-left:7px;
 	margin-right:7px;
 	color: #fff;
-	font-size:30px;
+	font-size:25px;
 	line-height:9px;
 	font-weight:600;
 	text-transform:uppercase;
@@ -1310,7 +1310,7 @@ svg * {
 }
 
 .parallax-mask {
-	background: url('../images/ASEAN.png') repeat fixed;
+	background: url('../img/ASEAN.png') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 

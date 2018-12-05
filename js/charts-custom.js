@@ -115,7 +115,7 @@ $(function () {
             },
         },
         data: {
-            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            labels: ["2017", "2018"],
             datasets: [
                 {
                     label: "Data Set One",
@@ -137,7 +137,7 @@ $(function () {
                     pointHoverBorderWidth: 2,
                     pointRadius: 1,
                     pointHitRadius: 10,
-                    data: [0, 50, 33, 71, 49, 55, 35, 40, 30, 50, 25, 40],
+                    data: [0, 0],
                     spanGaps: false
                 }
             ]
