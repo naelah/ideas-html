@@ -109,6 +109,11 @@ a{
   color: #458ed0;
 }
 
+a.bluewhite:hover{
+  text-decoration: none;
+  color: white;
+}
+
 a:hover, a:focus{
   text-decoration: none;
 }
