@@ -106,7 +106,8 @@
 
 a{
   text-decoration: none;
-  color: #458ed0;
+  
+  /* color: #458ed0; */
 }
 
 a.bluewhite:hover{
@@ -116,7 +117,19 @@ a.bluewhite:hover{
 
 a:hover, a:focus{
   text-decoration: none;
+  color: #0090D0;
 }
+
+#sidebar{
+  background-color: #323552;
+  color: white
+}
+
+.sidebar-link{
+  background-color: #323552;
+  color: white
+}
+
 
 .Menu {
   display: flex;
