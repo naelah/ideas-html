@@ -195,3 +195,8 @@ a:hover, a:focus{
   transform: rotate(45deg);
   width: 0.5rem;
 }
+
+.table-scrollable {
+  min-width: 350px;
+  overflow-y: scroll;
+}
