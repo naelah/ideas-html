@@ -2179,9 +2179,9 @@ figure.vimeo a img, figure.youtube a img {
 	line-height:22px;
 	letter-spacing:2px;
 	text-align:center;
-	padding-top:80px;
+	padding-top:30px;
 	color:black;
-	padding-bottom:80px;
+	padding-bottom:30px;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
